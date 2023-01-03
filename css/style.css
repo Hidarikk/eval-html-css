@@ -1,0 +1,64 @@
+/* Header */
+
+.header {
+    height: 450px;
+}
+
+.fondVoiture {
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.miTransparent {
+    background-color: white;
+}
+
+.form-control {
+    width: 500px
+}
+
+/* Footer */
+
+.imgAgence {
+    height: 180px;
+    width: 250px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1080px) {
+    .barre {
+        flex-direction: column;
+    }
+    .para {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .lesForm {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .voitureCard {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .form-control {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form-control {
+        width: 300px;
+    }
+}
